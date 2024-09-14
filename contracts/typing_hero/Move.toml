@@ -1,0 +1,10 @@
+[package]
+name = "typing_hero"
+edition = "2024.beta"
+authors = ["rzexin"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+bityoume = "0x0"
