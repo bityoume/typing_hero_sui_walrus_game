@@ -10,7 +10,6 @@ import {
   TextField,
 } from "@radix-ui/themes";
 import { useState } from "react";
-import toast from "react-hot-toast";
 
 export const UploadDashboard = () => {
   const { mutate: notesMutation, isPending } = useCreateNote();

@@ -1,0 +1,16 @@
+$ ./target/release/site-builder --config site-builder/assets/builder-example.yaml publish typing_hero_sui_walrus_game/frontend/dist
+
+Storing resource on Walrus: /assets/index-BSAjdWWt.js ... [Ok]
+Storing resource on Walrus: /assets/index-BbebkQYC.css ... [Ok]
+Storing resource on Walrus: /index.html ... [Ok]
+Updating the Walrus Site object on Sui ... [Ok]
+: Client/Server api version mismatch, client api version : 1.27.2, server api version : 1.33.0
+Execution completedr api version mismatch, client api version : 1.27.2, server api version : 1.33.0
+Operations performed:
+  - created resource /assets/index-BSAjdWWt.js with blob ID a9AEqvLcQLUat6BGJePmHOyQxO5zx1a4Ncxr2GGMDWs
+  - created resource /assets/index-BbebkQYC.css with blob ID C1NCPV831ukvOsJB57OvIucc3s3ZcO0v-jKby3gFRt8
+  - created resource /index.html with blob ID QqqTzTGDuEIxarcxagN-YdUCNlXuIfHL9X2nAT2dTZc
+
+Created new site: test site
+New site object ID: 0xb9c8cc7881f1ac81f8f774436d2d4ef487a6c7281b4d1cb2d057a3dbcf234367
+Browse the resulting site at: https://4mp3g7hbudllp4a09okilb7x1fs6ywsmvvz7n1c1a5uf8d95yf.walrus.site

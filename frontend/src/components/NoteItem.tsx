@@ -23,7 +23,7 @@ interface NoteItemProps {
 
 export const NoteItem = ({ dynamic_field_name }: NoteItemProps) => {
   const account = useCurrentAccount();
-  const { data, isPending, error } = useSuiClientQuery(
+  const { data } = useSuiClientQuery(
     "getDynamicFieldObject",
     {
       parentId: CONSTANTS.TYPING_HERO_CONTRACT.NOTES_OBJECT_ID,
