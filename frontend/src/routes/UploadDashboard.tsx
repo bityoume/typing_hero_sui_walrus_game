@@ -33,7 +33,7 @@ export const UploadDashboard = () => {
   return (
     <>
       <div className="w-full flex flex-col space-y-2">
-        <div className="flex items-center space-x-8">
+        <div className="flex items-center space-x-6">
           <h1 className="text-lg font-bold text-blue-500 text-right pr-8">
             Title:
           </h1>

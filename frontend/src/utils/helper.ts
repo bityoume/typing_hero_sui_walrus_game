@@ -22,7 +22,7 @@ export const calculatedAccuracy = (total: number, errors: number) => {
 export const calculateWPM = (correctTyped: number, timeSeconds: number) => {
   const words = correctTyped / 5;
   const minutes = timeSeconds / 60;
-  return words / minutes + " WPM";
+  return Math.round(words / minutes) + " WPM";
 };
 
 export const calculateWPMNum = (
